@@ -206,13 +206,13 @@ El programa permitira calcular la edad de una persona, utilizando la fecha actua
 ##### Declarar variables
 
 int AB_mm, AB_nn, AB_pp, AB_mm1, AB_nn1, AB_pp1, AB_me, AB_ne, AB_pe;
-##### El programa mostrara en pantalla la fecha actual y la fecha de nacimiento usando formato dd/mm/yy (dia-mes-año).
+##### El programa mostrara en pantalla la fecha actual y la fecha de nacimiento usando formato dd/mm/aa (dia-mes-año).
 
 cout<<"Digite la fecha actual usando formato dd/mm/yy: "<<endl;
 
 	cin>>AB_mm>>AB_nn>>AB_pp;
 	
-	cout<<"Digite su fecha de nacimiento usando formato dd/mm/yy: "<<endl;
+	cout<<"Digite su fecha de nacimiento usando formato dd/mm/aa: "<<endl;
 	
 	cin>>AB_mm1>>AB_nn1>>AB_pp1;
 	
