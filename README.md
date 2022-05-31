@@ -261,4 +261,4 @@ Ejecucion del programa utilizando el comando:
 $ ./(nombre del codigo de c++)
 
 #### Ejemplo
-$ ./OrdonezAndrea-compara
+$ ./OrdoñezAndrea-compara
