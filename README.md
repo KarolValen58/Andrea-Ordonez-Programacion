@@ -245,7 +245,7 @@ Descargar los programas en la aplicacion de termux utilizando el comando:
 
 $ git clone (el link o el codigo del repositorio) 
 
-#### Ejemplo 
+#### Modelo
 $ git clone https://github.com/KarolValen58/Andrea-Ordonez-Programacion.git
 
 #### 2) Compilar programa.
@@ -253,7 +253,7 @@ Copilacion del codigo de c++ en termux tilizando el comando:
 
 $ g++ (nombre del codigo de c++ llevando el .cpp)
 
-#### Ejemplo
+#### Modelo
 $ g++ OrdoñezAndrea-compara.cpp -o OrdoñezAndrea-compara
 
 #### 3) Ejecutar programa.
@@ -261,5 +261,5 @@ Ejecucion del programa utilizando el comando:
 
 $ ./(nombre del codigo de c++)
 
-#### Ejemplo
+#### Modelo
 $ ./OrdoñezAndrea-compara
