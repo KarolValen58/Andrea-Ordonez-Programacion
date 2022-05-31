@@ -15,10 +15,11 @@ https://www.youtube.com/watch?v=f7VARsCfIgE&t=197s
 ### 2) Comparacion de dos numeros
 ### 3) Contador de Monedas
 ### 4) Punto de Venta
-### 5) La Edad de una persona
+### 5) La Edad 
+
 
 # DESCRIPCION DE CADA PROGRAMA
-### 1. Suma 
+### 1) Suma 
 El programa permite obtener el valor de los numeros sumados, evaluando la cantidad de numeros registrados y el valor de cada cantidad.
 ### FUNCIONALIDAD
 #### ¿Como funciona?
@@ -57,7 +58,7 @@ cout<<"La porcion de numeros digitados es: "<<AB_p<<endl;
 
 cout<<"El valor obtenido de la suma es: "<<AB_t<<endl;
 
-### 2. COMPARA "<" ">"
+### 2) COMPARA "<" ">"
 El programa permite evaluar dos valores, en si uno es mayor y el otro menor o, si ambos valores son iguales.
 ### FUNCIONALIDAS
 ##### -Declarar variables
@@ -95,7 +96,7 @@ cout<<"El valor "<<AB_C<<" es mayor que "<<AB_D<<endl;
 cout<<"El valor "<<AB_D<<" es mayor que  "<<AB_C<<endl; 
 
 	
-### 3. CONTADOR DE MONEDAS
+### 3) CONTADOR DE MONEDAS
 El programa permitira contar la suma de las monedas ingresadas, el valor y de cuantas monedas (0.10, 0.25).
 
 ### FUNCIONALIDAD
@@ -142,7 +143,7 @@ cin>>AB_n;
   
 	cout<< " Valor de monedas de 25: " <<AB_i2<<endl;
 
-### 4. PUNTO DE VENTA
+### 4) PUNTO DE VENTA
 El programa llevara el control de ventas e inventarios sobre el negocio: número de productos vendidos, el valor total de la venta, y el valor de descuento que utilizara.
 
 ### FUNCIONALIDAD
@@ -194,7 +195,7 @@ cout<<"Valor bruto de compra: "<<AB_x<<endl;
 	
 	cout<<"Valor final: "<<AB_f<<endl;
   
-### 5. LA EDAD
+### 5) LA EDAD
 El programa permitira calcular la edad de una persona, utilizando la fecha actual y la fecha de nacimiento de dicha persona.
 
 ### FUNCIONALIDAD
