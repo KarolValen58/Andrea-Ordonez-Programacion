@@ -259,4 +259,4 @@ Ejecucion del programa utilizando el comando:
 $ ./(nombre del codigo de c++)
 
 #### Ejemplo
-$ ./LucasJavier-SumaN
+$ ./OrdonezAndrea-SumaN
