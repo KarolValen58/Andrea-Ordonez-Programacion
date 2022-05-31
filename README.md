@@ -19,10 +19,10 @@ https://www.youtube.com/watch?v=f7VARsCfIgE&t=197s
 
 
 # DESCRIPCION DE CADA PROGRAMA
-### 1) Suma 
+### 1) SUMA
 El programa permite obtener el valor de los numeros sumados, evaluando la cantidad de numeros registrados y el valor de cada cantidad.
 
-### FUNCIONALIDAD
+### FUNCIONALIDAD DEL PROGRAMA
 
 ##### Primer paso declarar variables, puede ser en numeros o letras.
 
@@ -51,7 +51,7 @@ do {
     AB_t=AB_t+AB_x;
 	
   } while (AB_x<AB_p);  
-### SALIDA
+### SALIDA DEL PROGRAMA
 ##### El programa mostrará su resultado obtenido.
 
 cout<<"La porcion de numeros digitados es: "<<AB_p<<endl;
@@ -61,7 +61,7 @@ cout<<"El valor obtenido de la suma es: "<<AB_t<<endl;
 ### 2) COMPARA "<" ">"
 El programa permitira que podamos condicionar o evaluar que cantidad es mayor ">" menor "<" o si las dos terminan siendo iguales
 
-### FUNCIONALIDAD
+### FUNCIONALIDAD DEL PROGRAMA
 
 ##### Declarar variables
 
@@ -89,7 +89,7 @@ if (AB_C==AB_D) {
 	else{
 		cout<<"Valor "<<AB_D<<" es mayor que  "<<AB_C<<endl; 
 	} 
-### SALIDA
+### SALIDA DEL PROGRAMA
 ##### Mostrar resultados
 cout<<"Los dos valores son iguales"<<endl;
 	
@@ -101,7 +101,7 @@ cout<<"El valor "<<AB_D<<" es mayor que  "<<AB_C<<endl;
 ### 3) CONTADOR DE MONEDAS
 El programa permitira llevar la cuenta o mostrarnos en pantalla la suma total de todas las monedas, el valor  exacto de cada moneda y cuántas monedas de (0.10, 0.25) fueron digitadas.
 
-### FUNCIONALIDAD
+### FUNCIONALIDAD DEL PROGRAMA
 
 ##### Declarar variables
 int  AB_n, AB_k= 0 , AB_k1= 0 , AB_k2= 0 ;
@@ -114,7 +114,8 @@ cout<< "Escriba el valor de monedas a contar :" <<endl;
 
 cin>>AB_n;
 
-##### Utilizamos una estructura repetitiva como ya habiamos mencionado anteriormente esta nos permite ejecutar de manera repetitiva un bloque de instrucciones sin evaluar de forma inmediata una condición especifica, sino evaluándola justo después de ejecutar por primera vez el bloque de instrucciones.
+##### Utilizamos una estructura repetitiva como ya habiamos mencionado anteriormente esta nos permite ejecutar el bloque de instrucciones y, después, se evalúa la condición. En el caso de que ésta sea verdadera, se vuelve a ejecutar el bloque de instrucciones. Y así sucesivamente, hasta que, la condición sea falsa.
+
 
 	do{
 		cout<< " Valor de moneda (0.10,0.25): " ;
@@ -129,7 +130,7 @@ cin>>AB_n;
 		AB_e2=AB_e2+AB_x;
 		}
     } while (AB_d<AB_n);
-### SALIDA
+### SALIDA DEL PROGRAMA
 ##### Mostrar resultado:
 	cout<< " Nos da como resultado: " <<endl;
   
@@ -148,7 +149,7 @@ cin>>AB_n;
 ### 4) PUNTO DE VENTA
 El programa llevara el control de ventas e inventarios sobre el negocio: número de productos vendidos, el valor total de la venta, y el valor de descuento que utilizara.
 
-### FUNCIONALIDAD
+### FUNCIONALIDAD DEL PROGRAMA
 
 ##### Declarar variables
 
@@ -178,7 +179,7 @@ do{
 	
 	cin>>AB_p;
 	
-### SALIDA
+### SALIDA DEL PROGRAMA
 ##### Mostrar resultado
 
 cout<<"Valor bruto de compra: "<<AB_x<<endl;
@@ -200,7 +201,7 @@ cout<<"Valor bruto de compra: "<<AB_x<<endl;
 ### 5) LA EDAD
 El programa permitira calcular la edad de una persona, utilizando la fecha actual y la fecha de nacimiento de dicha persona.
 
-### FUNCIONALIDAD
+### FUNCIONALIDAD DEL PROGRAMA
 
 ##### Declarar variables
 
@@ -234,7 +235,7 @@ cout<<"Digite la fecha actual usando formato dd/mm/yy: "<<endl;
 			AB_ne=AB_nn-AB_nn1;
 		}
 	AB_pe=AB_pp-AB_pp1;
- ### SALIDA
+ ### SALIDA DEL PROGRAMA
  ##### Mostrar resultado
 	cout<<"Usted tiene "<<AB_pe<<" años, "<<AB_ne<<" meses "<<"y "<<AB_me<<" dias."<<endl;
 	
