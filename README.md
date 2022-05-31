@@ -253,7 +253,7 @@ Copilacion del codigo de c++ en termux tilizando el comando:
 $ g++ (nombre del codigo de c++ llevando el .cpp)
 
 #### Ejemplo
-$ g++ OrdonezAndrea-SumaN.cpp 
+$ g++ OrdoñezAndrea-comparaN.cpp -o OrdoñezAndrea-comparaN
 
 #### 3) Ejecutar programa.
 Ejecucion del programa utilizando el comando:
@@ -261,4 +261,4 @@ Ejecucion del programa utilizando el comando:
 $ ./(nombre del codigo de c++)
 
 #### Ejemplo
-$ ./OrdonezAndrea-SumaN
+$ ./OrdonezAndrea-comparaN
