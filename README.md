@@ -24,21 +24,21 @@ El programa permite obtener el valor de los numeros sumados, evaluando la cantid
 
 ### FUNCIONALIDAD
 
-##### -Primer paso declarar variables, puede ser en numeros o letras.
+##### Primer paso declarar variables, puede ser en numeros o letras.
 
 int AB_x=0, AB_p;
 
 float AB_v, AB_t=0;
 
-##### -Luego mostrar en pantalla utilizando el comando "cout" para mencionar acualquier tipo de comentario.
+##### Luego mostrar en pantalla utilizando el comando "cout" para mencionar acualquier tipo de comentario.
 
 cout<<"Escriba la cantidad de los producto a sumar: "<<endl;
 
-##### -Luego introducir la variable utilizando el comando de "cin".
+##### Luego introducir la variable utilizando el comando de "cin".
 
 cin>> AB_p;
 
-##### -En este caso se esa utilizando una estructura repetitiva la cual ejecutar el bloque de instrucciones y, después, se evalúa la condición. En el caso de que ésta sea verdadera, se vuelve a ejecutar el bloque de instrucciones. Y así sucesivamente, hasta que, la condición sea falsa.
+##### En este caso se esa utilizando una estructura repetitiva la cual ejecutar el bloque de instrucciones y, después, se evalúa la condición. En el caso de que ésta sea verdadera, se vuelve a ejecutar el bloque de instrucciones. Y así sucesivamente, hasta que, la condición sea falsa.
 
 do {
 		
@@ -52,7 +52,7 @@ do {
 	
   } while (AB_x<AB_p);  
 ### SALIDA
-##### -El programa mostrará su resultado obtenido.
+##### El programa mostrará su resultado obtenido.
 
 cout<<"La porcion de numeros digitados es: "<<AB_p<<endl;
 
@@ -63,11 +63,11 @@ El programa permitira que podamos condicionar o evaluar que cantidad es mayor ">
 
 ### FUNCIONALIDAS
 
-##### -Declarar variables
+##### Declarar variables
 
 float  AB_C, AB_D;
 
-##### -Luego mostrar en pantalla utilizando el comando "cin" e ingrensando la variable.
+##### Luego mostrar en pantalla utilizando el comando "cin" e ingrensando la variable.
 
 cout<<"Escribir el valor: "<<endl;
   
@@ -77,7 +77,7 @@ cout<<"Escribir el valor: "<<endl;
   
 cin>>AB_D;
 
-##### -En esta estructura de tipo selectiva doble permitira definir la condición que se debe cumplir o no tomar una acción correspondiente. 
+##### En esta estructura de tipo selectiva doble permitira definir la condición que se debe cumplir o no tomar una acción correspondiente. 
 
 if (AB_C==AB_D) {
 
@@ -90,7 +90,7 @@ if (AB_C==AB_D) {
 		cout<<"Valor "<<AB_D<<" es mayor que  "<<AB_C<<endl; 
 	} 
 ### SALIDA
-##### -Mostrar resultados
+##### Mostrar resultados
 cout<<"Los dos valores son iguales"<<endl;
 	
 cout<<"El valor "<<AB_C<<" es mayor que "<<AB_D<<endl;
@@ -103,18 +103,18 @@ El programa permitira llevar la cuenta o mostrarnos en pantalla la suma total de
 
 ### FUNCIONALIDAD
 
-##### -Declarar variables
+##### Declarar variables
 int  AB_n, AB_k= 0 , AB_k1= 0 , AB_k2= 0 ;
 
 float  AB_x, AB_i= 0 , AB_i1= 0 , AB_i2= 0 ;
 
-##### -Ingresar el comentario e ingresar la variable.
+##### Ingresar el comentario e ingresar la variable.
   
 cout<< "Escriba el valor de monedas a contar :" <<endl;
 
 cin>>AB_n;
 
-##### -Utilizamos una estructura repetitiva como ya habiamos mencionado anteriormente esta nos permite ejecutar de manera repetitiva un bloque de instrucciones sin evaluar de forma inmediata una condición especifica, sino evaluándola justo después de ejecutar por primera vez el bloque de instrucciones.
+##### Utilizamos una estructura repetitiva como ya habiamos mencionado anteriormente esta nos permite ejecutar de manera repetitiva un bloque de instrucciones sin evaluar de forma inmediata una condición especifica, sino evaluándola justo después de ejecutar por primera vez el bloque de instrucciones.
 
 	do{
 		cout<< " Valor de moneda (0.10,0.25): " ;
@@ -130,7 +130,7 @@ cin>>AB_n;
 		}
     } while (AB_d<AB_n);
 ### SALIDA
-##### -Mostrar resultado:
+##### Mostrar resultado:
 	cout<< " Nos da como resultado: " <<endl;
   
 	cout<< " Valor de monedas digitadas: " <<AB_k<<endl;
@@ -150,17 +150,17 @@ El programa llevara el control de ventas e inventarios sobre el negocio: número
 
 ### FUNCIONALIDAD
 
-##### -Declarar variables
+##### Declarar variables
 
 int AB_c=0, AB_l;
 
 float AB_x=0, AB_u, AB_p, AB_m, AB_m1, AB_iv, AB_f;
-##### -Mostrar comentario e ingresar la variable
+##### Mostrar comentario e ingresar la variable
 
 cout<<"Digite el valor de los producto a sumar"<<endl;
 
 cin>>LJ_b;
-##### -Luego utilizar la estructura estructura repetitiva para evaluar el valor de la compra y el descuento.
+##### Luego utilizar la estructura estructura repetitiva para evaluar el valor de la compra y el descuento.
 
 do{
 
@@ -179,7 +179,7 @@ do{
 	cin>>AB_p;
 	
 ### SALIDA
-##### -Mostrar resultado
+##### Mostrar resultado
 
 cout<<"Valor bruto de compra: "<<AB_x<<endl;
 
@@ -202,10 +202,10 @@ El programa permitira calcular la edad de una persona, utilizando la fecha actua
 
 ### FUNCIONALIDAD
 
-##### -Declarar variables
+##### Declarar variables
 
 int AB_mm, AB_nn, AB_pp, AB_mm1, AB_nn1, AB_pp1, AB_me, AB_ne, AB_pe;
-##### -El programa mostrara en pantalla la fecha actual y la fecha de nacimiento usando formato dd/mm/yy (dia-mes-año).
+##### El programa mostrara en pantalla la fecha actual y la fecha de nacimiento usando formato dd/mm/yy (dia-mes-año).
 
 cout<<"Digite la fecha actual usando formato dd/mm/yy: "<<endl;
 
@@ -215,7 +215,7 @@ cout<<"Digite la fecha actual usando formato dd/mm/yy: "<<endl;
 	
 	cin>>AB_mm1>>AB_nn1>>AB_pp1;
 	
-##### -Utilizando estructura selectiva doble para evaluar una condición.
+##### Utilizando estructura selectiva doble para evaluar una condición.
 
 	if (AB_mm<AB_mm1){
 		AB_mm=AB_mm+30;
@@ -235,11 +235,11 @@ cout<<"Digite la fecha actual usando formato dd/mm/yy: "<<endl;
 		}
 	AB_pe=AB_pp-AB_pp1;
  ### SALIDA
- ##### -Mostrar resultado
+ ##### Mostrar resultado
 	cout<<"Usted tiene "<<AB_pe<<" años, "<<AB_ne<<" meses "<<"y "<<AB_me<<" dias."<<endl;
 	
 ## DESCARGAR PROGRAMAS, COPILACION Y EJECUCION DE PROGRAMAS
-#### 1. Descargar programas.
+#### 1) Descargar programas.
 Descargar los programas en la aplicacion de termux utilizando el comando:
 
 $ git clone (el link o el codigo del repositorio) 
@@ -247,7 +247,7 @@ $ git clone (el link o el codigo del repositorio)
 #### Ejemplo 
 $ git clone https://github.com/KarolValen58/Andrea-Ordonez-Programacion.git
 
-#### 2. Compilar programa.
+#### 2) Compilar programa.
 Copilacion del codigo de c++ en termux tilizando el comando:
 
 $ g++ (nombre del codigo de c++ llevando el .cpp)
@@ -255,7 +255,7 @@ $ g++ (nombre del codigo de c++ llevando el .cpp)
 #### Ejemplo
 $ g++ OrdonezAndrea-SumaN.cpp 
 
-#### 3. Ejecutar programa.
+#### 3) Ejecutar programa.
 Ejecucion del programa utilizando el comando:
 
 $ ./(nombre del codigo de c++)
