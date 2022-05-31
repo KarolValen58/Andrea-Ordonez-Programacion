@@ -61,7 +61,7 @@ cout<<"El valor obtenido de la suma es: "<<AB_t<<endl;
 ### 2) COMPARA "<" ">"
 El programa permitira que podamos condicionar o evaluar que cantidad es mayor ">" menor "<" o si las dos terminan siendo iguales
 
-### FUNCIONALIDAS
+### FUNCIONALIDAD
 
 ##### Declarar variables
 
