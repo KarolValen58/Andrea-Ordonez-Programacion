@@ -65,7 +65,7 @@ El programa permite evaluar dos valores, en si uno es mayor y el otro menor o, s
 
 float  AB_C, AB_D;
 
-##### -Luego mostrar en pantalla utilizando el comando "cint" e ingrensando la variable.
+##### -Luego mostrar en pantalla utilizando el comando "cin" e ingrensando la variable.
 
 cout<<"Escribir el valor: "<<endl;
   
