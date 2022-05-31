@@ -21,8 +21,8 @@ https://www.youtube.com/watch?v=f7VARsCfIgE&t=197s
 # DESCRIPCION DE CADA PROGRAMA
 ### 1) Suma 
 El programa permite obtener el valor de los numeros sumados, evaluando la cantidad de numeros registrados y el valor de cada cantidad.
+
 ### FUNCIONALIDAD
-#### ¿Como funciona?
 
 ##### -Primer paso declarar variables, puede ser en numeros o letras.
 
@@ -59,8 +59,10 @@ cout<<"La porcion de numeros digitados es: "<<AB_p<<endl;
 cout<<"El valor obtenido de la suma es: "<<AB_t<<endl;
 
 ### 2) COMPARA "<" ">"
-El programa permite evaluar dos valores, en si uno es mayor y el otro menor o, si ambos valores son iguales.
+El programa permitira que podamos condicionar o evaluar que cantidad es mayor ">" menor "<" o si las dos terminan siendo iguales
+
 ### FUNCIONALIDAS
+
 ##### -Declarar variables
 
 float  AB_C, AB_D;
@@ -88,7 +90,7 @@ if (AB_C==AB_D) {
 		cout<<"Valor "<<AB_D<<" es mayor que  "<<AB_C<<endl; 
 	} 
 ### SALIDA
-##### -Mostrando los resultados obtenidos del programa
+##### -Mostrar resultados
 cout<<"Los dos valores son iguales"<<endl;
 	
 cout<<"El valor "<<AB_C<<" es mayor que "<<AB_D<<endl;
@@ -97,10 +99,10 @@ cout<<"El valor "<<AB_D<<" es mayor que  "<<AB_C<<endl;
 
 	
 ### 3) CONTADOR DE MONEDAS
-El programa permitira contar la suma de las monedas ingresadas, el valor y de cuantas monedas (0.10, 0.25).
+El programa permitira llevar la cuenta o mostrarnos en pantalla la suma total de todas las monedas, el valor  exacto de cada moneda y cuántas monedas de (0.10, 0.25) fueron digitadas.
 
 ### FUNCIONALIDAD
-#### ¿Como funciona?
+
 ##### -Declarar variables
 int  AB_n, AB_k= 0 , AB_k1= 0 , AB_k2= 0 ;
 
@@ -147,7 +149,7 @@ cin>>AB_n;
 El programa llevara el control de ventas e inventarios sobre el negocio: número de productos vendidos, el valor total de la venta, y el valor de descuento que utilizara.
 
 ### FUNCIONALIDAD
-#### ¿Como funciona?
+
 ##### -Declarar variables
 
 int AB_c=0, AB_l;
@@ -199,7 +201,7 @@ cout<<"Valor bruto de compra: "<<AB_x<<endl;
 El programa permitira calcular la edad de una persona, utilizando la fecha actual y la fecha de nacimiento de dicha persona.
 
 ### FUNCIONALIDAD
-##### ¿Como funciona?
+
 ##### -Declarar variables
 
 int AB_mm, AB_nn, AB_pp, AB_mm1, AB_nn1, AB_pp1, AB_me, AB_ne, AB_pe;
