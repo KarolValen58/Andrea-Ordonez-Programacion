@@ -11,11 +11,11 @@ https://www.youtube.com/watch?v=f7VARsCfIgE&t=197s
 
 
 ##  PROGRAMAS
-### 1. Suma de varios numeros
-### 2. Comparacion de dos numeros
-### 3. Contador de Monedas
-### 4. Punto de Venta
-### 5. La Edad de una persona
+### 1) Suma de varios numeros
+### 2) Comparacion de dos numeros
+### 3) Contador de Monedas
+### 4) Punto de Venta
+### 5) La Edad de una persona
 
 # DESCRIPCION DE CADA PROGRAMA
 ### 1. Suma 
